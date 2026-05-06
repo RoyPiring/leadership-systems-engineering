@@ -1,6 +1,6 @@
 # Leadership Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Status](https://img.shields.io/badge/status-reserved-7B42BC?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--04-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Status](https://img.shields.io/badge/status-reserved-7B42BC?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--06-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *How does a leadership / high-performance framework apply when engineered as a system?*
 

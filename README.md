@@ -1,6 +1,6 @@
 # Leadership Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Status](https://img.shields.io/badge/status-reserved-7B42BC?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--07-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-1-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--05--07-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *How does a leadership / high-performance framework apply when engineered as a system?*
 
@@ -23,6 +23,6 @@ Leadership and high-performance frameworks from credentialed coursework, applied
 
 ## Systems
 
-_No systems shipped yet. This domain is reserved. New systems land under [`./systems/`](./systems/) as they're built and validated._
+- **[Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/)** — Stanford-Grade · DQ · NorthernTech · AI
 
 

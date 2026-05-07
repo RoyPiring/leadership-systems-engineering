@@ -8,4 +8,6 @@ Leadership frameworks from formal coursework, engineered as working systems.
 
 ## Systems
 
-_No systems shipped in this lens yet. New systems land under [`./systems/`](./systems/) as they're built and validated._
+| # | System | What it does |
+|--:|---|---|
+| 1 | [Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/) | Stanford-Grade · DQ · NorthernTech · AI |

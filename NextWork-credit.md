@@ -4,6 +4,7 @@ This portfolio repository was built from NextWork projects, created via NextWork
 
 **Original NextWork projects:**
 
+- Coach Anyone From Stuck to Action
 - Stanford Decision Quality Simulator
 
 ## About NextWork

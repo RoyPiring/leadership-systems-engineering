@@ -10,4 +10,5 @@ Leadership frameworks from formal coursework, engineered as working systems.
 
 | # | System | What it does |
 |--:|---|---|
-| 1 | [Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/) | Stanford-Grade · DQ · NorthernTech · AI |
+| 1 | [Coach Anyone From Stuck to Action](./systems/coaching-shift-protocol/) | Self-ELI · Advice-Giving · ICF |
+| 2 | [Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/) | Stanford-Grade · DQ · NorthernTech · AI |

@@ -4,7 +4,7 @@
 
 ## Overview
 
-A coaching operating system that engineers the **ICF (International Coach Federation)** core competencies and **iPEC** energy-coaching framework into a measurable, repeatable workflow inside Claude Code + an Obsidian vault. Where Stanford Decision Quality (the lens's other system) treats decisions as structured artifacts, this system treats coaching conversations the same way — turning subjective interaction into scored, documented practice.
+A coaching operating system that engineers the **ICF (International Coach Federation)** core competencies and **iPEC** energy-coaching framework into a measurable, repeatable workflow inside Claude Code + an Obsidian vault. Where Stanford Decision Quality (the lens's other system) treats decisions as structured artifacts, this system treats coaching conversations the same way, turning subjective interaction into scored, documented practice.
 
 The vault scaffolds three personas (a Master Coach Mentor, a resistant coachee named Marcus, and an ICF/iPEC Standards Gate that scores every session), a Self-ELI energy-baseline assessment, and the **4-Step Shift Arc** as the coaching engine. A scored live session with Marcus produced a documented 9/10 ICF competency rating, with presence, active listening, and awareness generation as the strongest competencies. The protocol then transfers out of simulation into seven days of calendared real conversations, and a Day-1-vs-Day-3 progression check.
 
@@ -14,7 +14,7 @@ The architecture below shows the operating loop: Self-ELI baseline → 4-Step Sh
 
 ```mermaid
 ---
-title: Coaching Shift Protocol — ICF and iPEC Operating System
+title: Coaching Shift Protocol with ICF and iPEC
 ---
 %%{init: {"theme":"base","themeVariables": {"primaryColor":"#1B4332","primaryTextColor":"#F4D03F","primaryBorderColor":"#F4D03F","secondaryColor":"#264653","tertiaryColor":"#2F5233","lineColor":"#F4D03F","fontFamily":"ui-monospace, SFMono-Regular, Menlo, Consolas, monospace","fontSize":"13px"}}}%%
 flowchart TD

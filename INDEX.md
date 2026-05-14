@@ -8,7 +8,7 @@ Leadership frameworks from formal coursework, engineered as working systems.
 
 ## Systems
 
-| # | System | What it does |
-|--:|---|---|
-| 1 | [Coach Anyone From Stuck to Action](./systems/coaching-shift-protocol/) | Self-ELI · Advice-Giving · ICF |
-| 2 | [Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/) | Stanford-Grade · DQ · NorthernTech · AI |
+| # | System | Onboarded | Last updated | What it does |
+|--:|---|---|---|---|
+| 1 | [Coach Anyone From Stuck to Action](./systems/coaching-shift-protocol/) | 2026-05-07 | 2026-05-11 | Self-ELI · Advice-Giving · ICF |
+| 2 | [Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/) | 2026-05-07 | 2026-05-11 | Stanford-Grade · DQ · NorthernTech · AI |

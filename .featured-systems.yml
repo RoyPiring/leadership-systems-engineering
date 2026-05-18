@@ -1,0 +1,46 @@
+lens: leadership-systems-engineering
+featured_enabled: auto
+threshold: 1
+scored_at: '2026-05-18'
+human_pin: []
+systems:
+- slug: coaching-shift-protocol
+  axis_scores:
+    technical_depth: 8
+    voice: 8
+    validation: 7
+  axis_reasoning:
+    technical_depth: README diagram names three personas, the Self-ELI baseline, the
+      4-Step Shift Arc engine, ICF scoring gate, and 7-day transfer loop with concrete
+      events (AdviceTrap, ICFEval 9 of 10) across 8 phases.
+    voice: README opens with 'engineers ICF core competencies into a measurable, repeatable
+      workflow' and cross-references the sister system, with no filler verbs and specific
+      outcomes like the 9/10 ICF rating.
+    validation: All 8 phases are checkmarked with screenshots inside the combined
+      document including the Marcus session score and a real-world wife conversation,
+      though phase-by-phase evidence is bundled in one doc rather than per-phase artifacts.
+  average: 7.7
+  rationale: ICF-scored coaching session with 4-Step Shift Arc and 7-day real-world
+    transfer loop
+  featured: true
+- slug: stanford-decision-quality-simulator
+  axis_scores:
+    technical_depth: 9
+    voice: 8
+    validation: 7
+  axis_reasoning:
+    technical_depth: Architecture composes the DQ six-element engine with a weakest-link
+      gate, Pfeffer 7-rule power overlay with a resequence event, and a board governance
+      gate, with concrete values like 'weakest = Frame, score 75' and 'PARTNER-to-BUILD
+      with resequenced comms'.
+    voice: README states 'A technically correct strategy can still fail if stakeholder
+      alignment, influence, and sequencing are ignored' and treats decisions as systems
+      to be stress-tested, naming tradeoffs without filler.
+    validation: All 8 phases are checkmarked with per-phase screenshots in the combined
+      document, concrete outputs (DQ score of 75, PARTNER-to-BUILD resequencing, 7-day
+      AI Readiness Audit commitment), though the Day-1-vs-Day-3 transfer is described
+      not shown.
+  average: 8.0
+  rationale: DQ weakest-link engine layered with Pfeffer power overlay and board governance
+    gate
+  featured: true

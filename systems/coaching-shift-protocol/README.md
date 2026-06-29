@@ -32,7 +32,7 @@ flowchart TD
         Assessments[(assessments/: Self-ELI Baselines)]
         Sessions[(sessions/: Live Transcripts + Scores)]
         Protocols[(protocols/: Reusable Operating Patterns)]
-        Transfer[(transfer/: 7-Day Application Workflows)]
+        TransferDir[(transfer/: 7-Day Application Workflows)]
         Templates[(templates/: Session Scaffolds)]
         Prompts[(prompts/: Persona + Question Library)]
     end
@@ -109,8 +109,9 @@ flowchart TD
     RealPerson -- "produces" --> Outcome
     Outcome -. "compared via" .-> D1vsD3
     SilenceWin -. "key transfer move" .-> SevenDay
+    SevenDay -. "captured in" .-> TransferDir
     D1vsD3 -. "evidence stored in" .-> Sessions
-    class Assessments,Sessions,Protocols,Transfer,Templates,Prompts,NormalEnergy,StressEnergy,Strongest,Protocol,SevenDay,D1vsD3 datastore
+    class Assessments,Sessions,Protocols,TransferDir,Templates,Prompts,NormalEnergy,StressEnergy,Strongest,Protocol,SevenDay,D1vsD3 datastore
     class Mentor,MarcusPersona,PowerfulQ,Lockwords,Silence,ShiftArc,ThirtyMin,BestWorkQ,Breakthrough,Teachback,SilenceWin service
     class Pattern,AdviceTrap,ICFEval,StandardsGate event
     class Coach,Marcus,RealPerson,Outcome io

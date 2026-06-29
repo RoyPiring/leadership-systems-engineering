@@ -4,7 +4,7 @@
 
 > *How does a leadership / high-performance framework apply when engineered as a system?*
 
-Leadership frameworks from formal coursework, engineered as working systems. Each system in this domain ships with a Mermaid architecture diagram, a numbered implementation map, and a checkmark list of build outcomes verified end-to-end. The original source document is kept per system.
+Leadership frameworks from formal coursework, engineered as working systems. Each system in this domain ships with a Mermaid architecture diagram, a numbered implementation map, and a checkmark list of documented build phases. The original source document is kept per system.
 
 ## Who this is for
 

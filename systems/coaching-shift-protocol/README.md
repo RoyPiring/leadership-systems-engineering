@@ -110,7 +110,6 @@ flowchart TD
     Outcome -. "compared via" .-> D1vsD3
     SilenceWin -. "key transfer move" .-> SevenDay
     D1vsD3 -. "evidence stored in" .-> Sessions
-
     class Assessments,Sessions,Protocols,Transfer,Templates,Prompts,NormalEnergy,StressEnergy,Strongest,Protocol,SevenDay,D1vsD3 datastore
     class Mentor,MarcusPersona,PowerfulQ,Lockwords,Silence,ShiftArc,ThirtyMin,BestWorkQ,Breakthrough,Teachback,SilenceWin service
     class Pattern,AdviceTrap,ICFEval,StandardsGate event
@@ -136,7 +135,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/coaching-shift-protocol.md`](./documents/coaching-shift-protocol.md):
+Each build phase below is documented in [`documents/coaching-shift-protocol.md`](./documents/coaching-shift-protocol.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ Setting Up the Coaching Skills Environment
 - ✅ Building the Shift Protocol Vault

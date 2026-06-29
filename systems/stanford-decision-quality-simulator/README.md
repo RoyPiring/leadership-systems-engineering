@@ -119,7 +119,6 @@ flowchart TD
     Commitment7d --> Operator
     Commitment7d -. "logged for synthesis" .-> Pattern
     AAR -. "logged for synthesis" .-> Pattern
-
     class ScenarioFiles,ScoringTemplates,ReferenceCards,Risks,Milestones,ESG,AAR,Commitment7d,Pattern datastore
     class Coach,Skeptic,OperatorAgent,Frame,Alternatives,Information,Values,Reasoning,Commitment,Rule1,Rule2,Rule3,Rule4,Rule5,Rule6,Rule7,TeachBack service
     class WLGate,SeqShift,BoardGate event
@@ -145,7 +144,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/stanford-decision-quality-simulator.md`](./documents/stanford-decision-quality-simulator.md):
+Each build phase below is documented in [`documents/stanford-decision-quality-simulator.md`](./documents/stanford-decision-quality-simulator.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ Building a Stanford-Grade Decision Simulator
 - ✅ Mastering the DQ Six Elements and Power Frameworks

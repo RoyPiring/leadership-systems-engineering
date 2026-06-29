@@ -174,7 +174,6 @@ flowchart LR
     ManualOverheadEliminated -.outcome.-> GHActions
     GHProjectsBoard -.data source.-> ProjectDataSource
     LinearWorkspace -.data source.-> ProjectDataSource
-
     class ClaudePersonas,LinearWorkspace,GHProjectsBoard service
     class TriageBoard,DirectorRoadmap,TriageTable service
     class Governance,Scope,Schedule,Finance,Stakeholders,Resources,Risk service
@@ -207,7 +206,7 @@ For the full walkthrough with screenshots and step-by-step content, see [`docume
 
 ## Validation
 
-Build outcomes verified end-to-end. Each phase below is captured with screenshots, configuration, and observable behavior in [`documents/pmbok8-program-recovery-simulator.md`](./documents/pmbok8-program-recovery-simulator.md):
+Each build phase below is documented in [`documents/pmbok8-program-recovery-simulator.md`](./documents/pmbok8-program-recovery-simulator.md), with screenshots, configuration, and notes as captured during the build:
 
 - ✅ The Mission: Managing a AAA Studio's Crisis Quarter
 - ✅ Building the War Room Command Center

@@ -17,7 +17,7 @@
 
 In this project, I built a coaching workflow system inside Obsidian using Claude Code and Claude Desktop App. The goal was to create a repeatable framework for guiding conversations from emotional resistance into clear action using structured coaching techniques.
 
-The system combines AI-assisted coaching simulations, energy assessments, structured protocols, and session scoring into a single operational workspace. Instead of treating coaching as abstract theory, the project focused on building a process that can be practiced, measured, and improved over time.
+The system combines AI-assisted coaching simulations, energy assessments, structured protocols, and session scoring into a single operational workspace. Instead of treating coaching as abstract theory, the project focused on building a process that can be practiced, measured, and sharpened over time.
 
 ## Setting Up the Coaching Skills Environment
 
@@ -161,7 +161,7 @@ This demonstrated that the protocol works best when emotional ownership remains 
 
 ### Day 1 vs. Day 3 skill progression
 
-Comparing later sessions showed measurable improvement in presence and silence tolerance.
+Comparing later sessions showed measurable gains in presence and silence tolerance.
 
 The coaching became less reactive and more observational, especially during emotionally charged moments. The most noticeable growth came from resisting the urge to fill silence prematurely.
 

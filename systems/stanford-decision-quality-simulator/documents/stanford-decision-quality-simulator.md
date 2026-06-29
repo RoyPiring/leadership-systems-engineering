@@ -49,7 +49,7 @@ The simulation introduces the six Decision Quality elements as the core scoring 
 
 Frame, Alternatives, Information, Values and Trade-offs, Reasoning, and Commitment are treated as independent evaluation layers rather than a blended average. The framework uses weakest-link scoring, meaning the overall decision quality is capped by the lowest-scoring element regardless of strengths elsewhere.
 
-This changes how decisions are improved. Instead of optimizing already strong areas, effort must focus on repairing structural weaknesses that reduce the overall integrity of the decision.
+This changes how decisions are strengthened. Instead of sharpening already strong areas, effort must focus on repairing structural weaknesses that reduce the overall integrity of the decision.
 
 The project also introduces Pfeffer’s 7 Rules of Power as an execution overlay. These rules analyze influence, stakeholder alignment, sequencing, and organizational behavior to determine whether a technically sound strategy can survive real-world implementation pressures.
 
@@ -145,7 +145,7 @@ The framework treats governance not as bureaucracy but as another quality filter
 
 The weakest element already exceeded the minimum threshold, so no structural rework was required.
 
-However, governance improvements were still added, including quantified risks, mitigation plans, milestone metrics, and broader reputation analysis. Additional refinements that could raise the Frame score further included tighter customer segmentation, explicit assumptions, and clearer falsifiability conditions.
+However, governance refinements were still added, including quantified risks, mitigation plans, milestone metrics, and broader reputation analysis. Additional refinements that could raise the Frame score further included tighter customer segmentation, explicit assumptions, and clearer falsifiability conditions.
 
 This demonstrated that governance review strengthens rigor even when baseline thresholds are already met.
 
@@ -191,7 +191,7 @@ The Power framework consistently affected implementation more than strategic dir
 
 In both simulations, the core recommendation remained largely intact while execution sequencing, stakeholder alignment, and relationship management changed substantially.
 
-The DQ framework also showed uneven improvement across elements. Frame, Information, and Commitment improved more predictably across scenarios, while Alternatives improved more slowly because divergent thinking depends heavily on scenario-specific creativity.
+The DQ framework also showed uneven gains across elements. Frame, Information, and Commitment advanced more predictably across scenarios, while Alternatives advanced more slowly because divergent thinking depends heavily on scenario-specific creativity.
 
 A key insight was that repeated framework use began influencing intuition itself. The second scenario showed stronger gut prediction structure before formal analysis even started.
 
@@ -203,7 +203,7 @@ This project uses a three-persona simulator, Claude Desktop with Cowork mode, th
 
 The core concepts include weakest-link scoring, strategic framing, operational information analysis, governance evaluation, power dynamics, and decision transfer into real-world execution.
 
-The simulator treats decisions as systems that can be analyzed, stress-tested, and improved systematically rather than relying only on instinct.
+The simulator treats decisions as systems that can be analyzed, stress-tested, and strengthened systematically rather than relying only on instinct.
 
 ### Time and challenges
 

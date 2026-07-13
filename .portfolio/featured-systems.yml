@@ -1,46 +1,79 @@
 lens: leadership-systems-engineering
 featured_enabled: auto
 threshold: 1
-scored_at: '2026-05-18'
+scored_at: '2026-07-13'
 human_pin: []
 systems:
 - slug: coaching-shift-protocol
   axis_scores:
-    technical_depth: 8
-    voice: 8
-    validation: 7
+    technical_depth: 7
+    voice: 7
+    validation: 6
   axis_reasoning:
-    technical_depth: README diagram names three personas, the Self-ELI baseline, the
-      4-Step Shift Arc engine, ICF scoring gate, and 7-day transfer loop with concrete
-      events (AdviceTrap, ICFEval 9 of 10) across 8 phases.
-    voice: README opens with 'engineers ICF core competencies into a measurable, repeatable
-      workflow' and cross-references the sister system, with no filler verbs and specific
-      outcomes like the 9/10 ICF rating.
-    validation: All 8 phases are checkmarked with screenshots inside the combined
-      document including the Marcus session score and a real-world wife conversation,
-      though phase-by-phase evidence is bundled in one doc rather than per-phase artifacts.
-  average: 7.7
-  rationale: ICF-scored coaching session with 4-Step Shift Arc and 7-day real-world
-    transfer loop
+    technical_depth: The Mermaid diagram names real vault folders (assessments/, sessions/,
+      protocols/, transfer/) and traces the Self-ELI baseline through the 4-Step Shift
+      Arc to the ICF gate, but the system ships no automation or code artifact.
+    voice: Direct and on-brand in places such as 'advice closes exploration while
+      powerful questions expand it,' though several document passages fall into generic
+      restatement.
+    validation: The Validation section is an eight-phase checklist backed by screenshots
+      and a self-scored ICF 9/10, with the live Marcus session as the strongest evidence,
+      but the score comes from a persona rather than an external check.
+  average: 6.67
+  rationale: ICF-scored coaching sessions that carry into seven days of real conversations
+  featured: true
+- slug: pmbok8-program-recovery-simulator
+  axis_scores:
+    technical_depth: 9
+    voice: 6
+    validation: 8
+  axis_reasoning:
+    technical_depth: Nine phases with GitHub Projects views, a Chart.js executive
+      dashboard, EMV risk register, SPI analysis, and a GitHub Actions daily report
+      give this the widest running-artifact surface, and the LR diagram names real
+      teams and causes (velocity 24 to 8 to 2).
+    voice: Competent but report-like PM prose ('transformed raw project data into
+      decision-support tools'), with more generic restatement than concrete decisions.
+    validation: Each phase is screenshotted with concrete numbers (EMV, SPI verdict
+      naming Leviathan and Shiva) and the Director's pitch earns an approved-with-conditions
+      verdict, the strongest evidence in the set.
+  average: 7.67
+  rationale: EMV risk register and SPI analysis behind an approved recovery verdict
   featured: true
 - slug: stanford-decision-quality-simulator
   axis_scores:
-    technical_depth: 9
-    voice: 8
+    technical_depth: 7
+    voice: 7
     validation: 7
   axis_reasoning:
-    technical_depth: Architecture composes the DQ six-element engine with a weakest-link
-      gate, Pfeffer 7-rule power overlay with a resequence event, and a board governance
-      gate, with concrete values like 'weakest = Frame, score 75' and 'PARTNER-to-BUILD
-      with resequenced comms'.
-    voice: README states 'A technically correct strategy can still fail if stakeholder
-      alignment, influence, and sequencing are ignored' and treats decisions as systems
-      to be stress-tested, naming tradeoffs without filler.
-    validation: All 8 phases are checkmarked with per-phase screenshots in the combined
-      document, concrete outputs (DQ score of 75, PARTNER-to-BUILD resequencing, 7-day
-      AI Readiness Audit commitment), though the Day-1-vs-Day-3 transfer is described
-      not shown.
+    technical_depth: A three-persona simulator with a weakest-link DQ gate, a seven-rule
+      Pfeffer power overlay, and a board governance gate forms a layered decision
+      engine, though it produces analysis rather than running tooling.
+    voice: Clear and framework-precise, for example the weakest-link point that 'a
+      95 across most dimensions still collapses operationally,' with some generic
+      connective passages.
+    validation: The weakest-link score of 75 out of 100, the instinct-vs-framework
+      After-Action Review, and a second scenario run to test generalization make the
+      evidence solid, with the generalization pass as the strongest signal.
+  average: 7.0
+  rationale: Weakest-link decision scoring with a power overlay, proven across two
+    scenarios
+  featured: true
+- slug: strategic-bet-drill
+  axis_scores:
+    technical_depth: 8
+    voice: 9
+    validation: 7
+  axis_reasoning:
+    technical_depth: Four ADRs, an agent topology in Mermaid, and runtime refusal
+      rules with a hard-fail capstone rubric (Items 3 and 5 must score at least 1)
+      form an engineering-grade drill design, though the deliverable is prompts and
+      rubrics rather than deployed automation.
+    voice: Sharpest writing in the set, distinctive and free of filler ('A plan that
+      funds every option is not a bet. It is a delay with better formatting.').
+    validation: The capstone scored 8 of 12 with both refusal rules firing in Phases
+      3 and 5 and a named human cost (Marcus T.), though the 30/90-day re-score loop
+      is designed but not yet run.
   average: 8.0
-  rationale: DQ weakest-link engine layered with Pfeffer power overlay and board governance
-    gate
+  rationale: Refusal rules that force a funded kill decision with the human cost named
   featured: true

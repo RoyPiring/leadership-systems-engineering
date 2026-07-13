@@ -1,6 +1,6 @@
 # Leadership Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-3-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--06--25-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-4-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--07--13-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *How does a leadership / high-performance framework apply when engineered as a system?*
 
@@ -23,9 +23,9 @@ Leadership and high-performance frameworks from credentialed coursework, applied
 
 ## Featured Systems
 
-- **[Coach Anyone From Stuck to Action](./systems/coaching-shift-protocol/)**: ICF-scored coaching session with 4-Step Shift Arc and 7-day real-world transfer loop
-- **[Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/)**: DQ weakest-link engine layered with Pfeffer power overlay and board governance gate
-
-_+ 1 other system in the full catalog: [`INDEX.md`](./INDEX.md)._
+- **[Coach Anyone From Stuck to Action](./systems/coaching-shift-protocol/)**: ICF-scored coaching sessions that carry into seven days of real conversations
+- **[Run a AAA Game Studio's Worst Sprint](./systems/pmbok8-program-recovery-simulator/)**: EMV risk register and SPI analysis behind an approved recovery verdict
+- **[Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/)**: Weakest-link decision scoring with a power overlay, proven across two scenarios
+- **[Set the Bet: Strategic Leadership](./systems/strategic-bet-drill/)**: Refusal rules that force a funded kill decision with the human cost named
 
 

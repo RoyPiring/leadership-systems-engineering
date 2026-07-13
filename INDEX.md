@@ -4,10 +4,13 @@
 
 Leadership frameworks from formal coursework, engineered as working systems.
 
+> Currently empty. Reserved for incoming coursework artifacts.
+
 ## Systems
 
 | # | System | Onboarded | Last updated | What it does |
 |--:|---|---|---|---|
-| 1 | [Coach Anyone From Stuck to Action](./systems/coaching-shift-protocol/) | 2026-05-07 | 2026-05-11 | Self-ELI · Advice-Giving · ICF |
-| 2 | [Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/) | 2026-05-07 | 2026-05-11 | Stanford-Grade · DQ · NorthernTech · AI |
-| 3 | [Run a AAA Game Studio's Worst Sprint](./systems/pmbok8-program-recovery-simulator/) | 2026-06-18 | 2026-06-18 | AAA · PMBOK · Cross-Team · RACI |
+| 1 | [Coach Anyone From Stuck to Action](./systems/coaching-shift-protocol/) | 2026-05-07 | 2026-06-29 | Self-ELI · Advice-Giving · ICF |
+| 2 | [Stanford Decision Quality Simulator](./systems/stanford-decision-quality-simulator/) | 2026-05-07 | 2026-06-28 | Stanford-Grade · DQ · NorthernTech · AI |
+| 3 | [Run a AAA Game Studio's Worst Sprint](./systems/pmbok8-program-recovery-simulator/) | 2026-06-18 | 2026-06-28 | AAA · PMBOK · Cross-Team · RACI |
+| 4 | [Set the Bet: Strategic Leadership](./systems/strategic-bet-drill/) | 2026-07-13 | 2026-07-13 | GitHub · Four-Persona |

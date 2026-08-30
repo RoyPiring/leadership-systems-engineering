@@ -5,7 +5,9 @@ This portfolio repository was built from NextWork projects, created via NextWork
 **Original NextWork projects:**
 
 - Coach Anyone From Stuck to Action
+- Run a AAA Game Studio's Worst Sprint
 - Stanford Decision Quality Simulator
+- Set the Bet: Strategic Leadership
 
 ## About NextWork
 

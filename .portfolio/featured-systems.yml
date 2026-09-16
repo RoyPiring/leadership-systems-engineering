@@ -1,26 +1,62 @@
 lens: leadership-systems-engineering
 featured_enabled: auto
 threshold: 1
-scored_at: '2026-07-13'
+scored_at: '2026-09-15'
 human_pin: []
 systems:
-- slug: coaching-shift-protocol
+- slug: strategic-bet-drill
+  axis_scores:
+    technical_depth: 8
+    voice: 9
+    validation: 7
+  axis_reasoning:
+    technical_depth: 'Engineering-grade drill design: principles.md governing runtime, four ADRs (persona
+      configuration, iterative refusal rules, resource-allocation tests, dependency workflow), an agent
+      topology in Mermaid, ten Linear tickets, a four-persona boot prompt, eight phased prompts, a per-step
+      rubric plus a capstone scorecard with hard-fail Items 3 and 5, three worksheets, a seven-field brief
+      template, and a 30/90-day re-score loop that treats reverted allocation as strategy failure. The
+      diagram names all of it. Held at 8 because the ADR contents are named, not shown, and the deliverable
+      is prompts and rubrics.'
+    voice: 'Sharpest writing in the lens: ''A plan that funds every option is not a bet. It is a delay
+      with better formatting.'' and ''The rules set the floor. The rubric judges what clears it.'' Concrete
+      decisions and their costs are named throughout. The closing reflections drift into generic tool
+      lists, which is the only thing between it and a 10.'
+    validation: 'The drill ran: capstone scored 8 of 12, both refusal rules fired (Phase 3 rejected the
+      execute-faster diagnosis, Phase 5 rejected efficiency-gains funding), the enterprise desk and SMB
+      acquisition were named as what stops, and the human cost is a named person (Marcus T., VP Sales)
+      with his hires. Screenshots per phase including the GitHub ship. The 30/90-day re-score is designed
+      but not yet run.'
+  rationale: Refusal rules that force a funded kill decision with the human cost named
+  average: 8.0
+  featured: true
+- slug: stranger-checkable-goals
   axis_scores:
     technical_depth: 7
-    voice: 7
-    validation: 6
+    voice: 9
+    validation: 7
   axis_reasoning:
-    technical_depth: The Mermaid diagram names real vault folders (assessments/, sessions/,
-      protocols/, transfer/) and traces the Self-ELI baseline through the 4-Step Shift
-      Arc to the ICF gate, but the system ships no automation or code artifact.
-    voice: Direct and on-brand in places such as 'advice closes exploration while
-      powerful questions expand it,' though several document passages fall into generic
-      restatement.
-    validation: The Validation section is an eight-phase checklist backed by screenshots
-      and a self-scored ICF 9/10, with the live Marcus session as the strongest evidence,
-      but the score comes from a persona rather than an external check.
-  average: 6.67
-  rationale: ICF-scored coaching sessions that carry into seven days of real conversations
+    technical_depth: 'For the lens question this is the right shape: a Notion page with a frozen baseline
+      block, a three-condition scorer, an owner-date-count rule, a HARD marker, a seven-line tracking
+      block, a single four-of-five threshold with a one-directional reminder clause, a trigger chosen
+      against three rejected alternatives, a scheduled 66-day review, and an evidence standard for objections.
+      Every rule is justified by the failure it prevents (hindsight edits, moved thresholds, reminder
+      dependence, too-easy goals) and the diagram encodes that reasoning on its edges. It stays at 7 because
+      the system is one page plus a calendar across five phases, with no reusable template or tracking
+      log, and the review loop that would close it has not run.'
+    voice: 'Disciplined first-person prose where nearly every sentence carries a fact or a rule: ''a number
+      without a due date could show scale but could not establish lateness'', ''the noon meal was not
+      proof that I would follow through, and the calendar did not contain compliance data''. It bounds
+      its own claims honestly (the page does not guarantee completion; checkability is not difficulty).
+      No banned verbs, no dashes. Held at 9 rather than 10 because the HARD marker and seven-line block
+      are described twice across adjacent subsections and the register is uniform rather than distinctive.'
+    validation: 'Each of five phases has a screenshot and a concrete result: a 0 of 9 baseline with component
+      counts (four had a number, five a specific action, none a deadline), rewritten goals with a named
+      owner and an exact date, the seven-line block with its rule, and a red-team pass where one objection
+      survives on calendar evidence and one fails because the program was six days old with no log. That
+      red-team is the strongest evidence. The 66-day review is scheduled but unrun, so the keep-or-drop
+      outcome does not exist yet.'
+  rationale: Goals a stranger can check, from a frozen 0 of 9 baseline to a keep-or-drop rule fixed early
+  average: 7.67
   featured: true
 - slug: pmbok8-program-recovery-simulator
   axis_scores:
@@ -28,17 +64,24 @@ systems:
     voice: 6
     validation: 8
   axis_reasoning:
-    technical_depth: Nine phases with GitHub Projects views, a Chart.js executive
-      dashboard, EMV risk register, SPI analysis, and a GitHub Actions daily report
-      give this the widest running-artifact surface, and the LR diagram names real
-      teams and causes (velocity 24 to 8 to 2).
-    voice: Competent but report-like PM prose ('transformed raw project data into
-      decision-support tools'), with more generic restatement than concrete decisions.
-    validation: Each phase is screenshotted with concrete numbers (EMV, SPI verdict
-      naming Leviathan and Shiva) and the Director's pitch earns an approved-with-conditions
-      verdict, the strongest evidence in the set.
-  average: 7.67
+    technical_depth: 'Widest running-artifact surface in the lens: three GitHub Projects views by audience,
+      Linear, a scenario data pack, seven PMBOK 8 domains, formal change control, a reviewed charter,
+      an EMV risk register, stakeholder matrix, RACI, a Chart.js dashboard with SPI analysis, a five-slide
+      HTML deck with Web Speech API narration, and a GitHub Actions daily report. The LR diagram names
+      real teams and real causes (velocity 24 to 8 to 2, team lead lost, ArtForge vendor late). Held at
+      9 because the EMV figures and the Actions workflow are described, not shown.'
+    voice: Competent PM report prose that restates outcomes in consultant register ('transformed raw project
+      data into decision-support tools', 'reinforced the importance of evidence-based decision-making').
+      Concrete lines exist (structural delivery failure rather than a productivity issue; recovery depends
+      on leadership replacement and vendor escalation, not more effort) and one section loses its Triage
+      Board heading mid-list. No banned verbs, but more filler than any other system here.
+    validation: 'Each of nine phases carries a screenshot with concrete numbers: the Leviathan velocity
+      trend, the SPI verdict naming Leviathan and Shiva as critical, the Odin scope-reduction decision,
+      and the Director''s approved-with-conditions verdict with its three named conditions. The Actions
+      automation was debugged through permissions and YAML. Strongest evidence chain in the set; not a
+      10 because the EMV result itself is not shown.'
   rationale: EMV risk register and SPI analysis behind an approved recovery verdict
+  average: 7.67
   featured: true
 - slug: stanford-decision-quality-simulator
   axis_scores:
@@ -46,34 +89,43 @@ systems:
     voice: 7
     validation: 7
   axis_reasoning:
-    technical_depth: A three-persona simulator with a weakest-link DQ gate, a seven-rule
-      Pfeffer power overlay, and a board governance gate forms a layered decision
-      engine, though it produces analysis rather than running tooling.
-    voice: Clear and framework-precise, for example the weakest-link point that 'a
-      95 across most dimensions still collapses operationally,' with some generic
-      connective passages.
-    validation: The weakest-link score of 75 out of 100, the instinct-vs-framework
-      After-Action Review, and a second scenario run to test generalization make the
-      evidence solid, with the generalization pass as the strongest signal.
+    technical_depth: 'A layered decision engine: three personas (Coach, Skeptic, Operator) over six project
+      files, a six-element DQ scorer with a weakest-link gate that caps the total, a seven-rule Pfeffer
+      overlay that resequences execution, a board governance gate, and a transfer loop. The diagram carries
+      real data on its edges (weakest = Frame at 75, PARTNER-to-BUILD with resequenced comms). It produces
+      analysis rather than tooling, and the six project files are counted but not itemized.'
+    voice: Framework-precise with real teaching lines ('a 95 across most dimensions still collapses operationally',
+      'governance not as bureaucracy but as another quality filter'). Much of the connective tissue is
+      third-person present ('The simulation introduces', 'This step transforms') which reads as course
+      narration rather than owned decisions, so it stays at 7.
+    validation: Instinct recorded before analysis (PARTNER), a weakest-link score of 75 with Frame named
+      lowest, the Leidos conflict-of-interest gap surfaced as the warm-up's weakest Information element,
+      an instinct-vs-framework After-Action Review, and a second scenario run to test generalization,
+      which is the strongest signal. The 7-day commitment lists deliverables but no outcome, and the second
+      scenario reports patterns without a score.
+  rationale: Weakest-link decision scoring with a power overlay, proven across two scenarios
   average: 7.0
-  rationale: Weakest-link decision scoring with a power overlay, proven across two
-    scenarios
   featured: true
-- slug: strategic-bet-drill
+- slug: coaching-shift-protocol
   axis_scores:
-    technical_depth: 8
-    voice: 9
-    validation: 7
+    technical_depth: 7
+    voice: 7
+    validation: 6
   axis_reasoning:
-    technical_depth: Four ADRs, an agent topology in Mermaid, and runtime refusal
-      rules with a hard-fail capstone rubric (Items 3 and 5 must score at least 1)
-      form an engineering-grade drill design, though the deliverable is prompts and
-      rubrics rather than deployed automation.
-    voice: Sharpest writing in the set, distinctive and free of filler ('A plan that
-      funds every option is not a bet. It is a delay with better formatting.').
-    validation: The capstone scored 8 of 12 with both refusal rules firing in Phases
-      3 and 5 and a named human cost (Marcus T.), though the 30/90-day re-score loop
-      is designed but not yet run.
-  average: 8.0
-  rationale: Refusal rules that force a funded kill decision with the human cost named
+    technical_depth: 'The vault is a real operating loop: six named folders (assessments/, sessions/,
+      protocols/, transfer/, templates/, prompts/), three role-separated personas, a Self-ELI baseline
+      feeding the 4-Step Shift Arc, an ICF scoring gate, and a 7-day transfer. The diagram names those
+      components and edges. The source doc names the Shift Arc but never lists its four steps, and the
+      ICF scoring mechanics are asserted rather than shown, so it sits at the low end of production shape.'
+    voice: First-person and on-brand at its best ('advice closes exploration while powerful questions
+      expand it', 'restraint is often more valuable than explanation'), with concrete moments such as
+      the best-work question, the Level 4 baseline, and the 'Keep going' prompt. Each is wrapped in a
+      generic sentence of the 'this transformed the interaction into a repeatable system' kind, which
+      keeps it out of the 8-9 band.
+    validation: Every phase has a screenshot and the live Marcus session produced a 9 of 10 ICF score,
+      which is the strongest evidence. That score comes from a persona gate inside the same workspace,
+      the Day 1 vs Day 3 progression is described without numbers, and the three calendared real conversations
+      report one documented outcome, so the chain is partial.
+  rationale: ICF-scored coaching sessions that carry into seven days of real conversations
+  average: 6.67
   featured: true

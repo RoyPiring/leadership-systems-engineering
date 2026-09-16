@@ -4,8 +4,6 @@
 
 Leadership frameworks from formal coursework, engineered as working systems.
 
-> Currently empty. Reserved for incoming coursework artifacts.
-
 ## Systems
 
 | # | System | Onboarded | Last updated | What it does |

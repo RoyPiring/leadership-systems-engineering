@@ -1,7 +1,7 @@
 lens: leadership-systems-engineering
 featured_enabled: auto
 threshold: 1
-scored_at: '2026-09-15'
+scored_at: '2026-09-17'
 human_pin: []
 systems:
 - slug: strategic-bet-drill
@@ -26,8 +26,8 @@ systems:
       acquisition were named as what stops, and the human cost is a named person (Marcus T., VP Sales)
       with his hires. Screenshots per phase including the GitHub ship. The 30/90-day re-score is designed
       but not yet run.'
-  rationale: Refusal rules that force a funded kill decision with the human cost named
   average: 8.0
+  rationale: Refusal rules that force a funded kill decision with the human cost named
   featured: true
 - slug: stranger-checkable-goals
   axis_scores:
@@ -55,8 +55,8 @@ systems:
       survives on calendar evidence and one fails because the program was six days old with no log. That
       red-team is the strongest evidence. The 66-day review is scheduled but unrun, so the keep-or-drop
       outcome does not exist yet.'
-  rationale: Goals a stranger can check, from a frozen 0 of 9 baseline to a keep-or-drop rule fixed early
   average: 7.67
+  rationale: Goals a stranger can check, from a frozen 0 of 9 baseline to a keep-or-drop rule fixed early
   featured: true
 - slug: pmbok8-program-recovery-simulator
   axis_scores:
@@ -80,8 +80,48 @@ systems:
       and the Director''s approved-with-conditions verdict with its three named conditions. The Actions
       automation was debugged through permissions and YAML. Strongest evidence chain in the set; not a
       10 because the EMV result itself is not shown.'
-  rationale: EMV risk register and SPI analysis behind an approved recovery verdict
   average: 7.67
+  rationale: EMV risk register and SPI analysis behind an approved recovery verdict
+  featured: true
+- slug: daily-work-catalogue
+  axis_scores:
+    technical_depth: 7
+    voice: 8
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'Same shape as its sibling stranger-checkable-goals and scored the same: one Notion
+      page plus Google Calendar, across seven phases. What it adds is a live daily loop with a real data
+      flow: a source map where every arrival channel (Gmail, Slack, Notion, Calendar, meetings, calls,
+      in-person, paper) carries exactly one rule (I VISIT IT at a written time, or CAN REACH ME under
+      a named condition) so no unlisted channel can bypass the queue; a pointer schema (one imperative
+      sentence plus It stays in... plus a locator) with a self-check that a paragraph-length pointer is
+      evidence of copied source; a rebuild cue tied to the end of the 9:15 Daily Scrum, chosen because
+      it is present on working days, absent on rest days, and needs no dismissable reminder; an end-of-queue
+      rule for ordinary arrivals with a narrow safety exception logged under DATE, WHAT ARRIVED, WHERE
+      IT STAYS; and a setup cost recorded before day one. The diagram names all of it and carries the
+      reasoning on its edges. Held at 7 because it is still one page, the review horizon is never dated
+      (the sibling fixed 66 days), adherence has no numeric threshold, and the review that would close
+      the loop has not run.'
+    voice: 'The same disciplined first-person register as the sibling, with lines that carry the design:
+      ''their timing did not establish priority'', ''a centralized catalogue did not require centralized
+      content'', ''prevented ordinary urgency from borrowing the language of safety while preserving a
+      route for genuine harm''. It bounds its own claims (the system does not prevent every interruption
+      or replace professional judgment; professional, legal and workplace rules stay above it). No banned
+      verbs, no dashes. One below the sibling because the end-of-queue rule and the safety exception are
+      each restated three times across phases 4, 5 and 7, the pointer format twice, and the reflections
+      restate the whole system a fourth time, so each paragraph carries less new information than the
+      goals page does.'
+    validation: 'Five of seven phases carry a screenshot; the precommitted review (phase 6) has none,
+      and the only numbers on the page are the setup cost (a five-minute sweep, page repair heavier than
+      the sweep, a displaced gym block) and the scrum and visit times. The busy-day audit is the system''s
+      own test and it did run: direct messages, meeting requests and spoken asks each got one pointer
+      at the end and work resumed, with a screenshot, but no count of arrivals, no date, and no queue-order
+      record is reported. The exception log is stated blank, which is a result. The review is scheduled
+      but its date is not on the page and it has not run, so the keep, revise or drop outcome does not
+      exist yet. A partial chain, one step below the sibling''s numeric 0 of 9 baseline and its evidence-decided
+      red team.'
+  average: 7.0
+  rationale: One rule per arrival channel, a pointer-only queue, and a safety exception that must be logged
   featured: true
 - slug: stanford-decision-quality-simulator
   axis_scores:
@@ -103,8 +143,8 @@ systems:
       an instinct-vs-framework After-Action Review, and a second scenario run to test generalization,
       which is the strongest signal. The 7-day commitment lists deliverables but no outcome, and the second
       scenario reports patterns without a score.
-  rationale: Weakest-link decision scoring with a power overlay, proven across two scenarios
   average: 7.0
+  rationale: Weakest-link decision scoring with a power overlay, proven across two scenarios
   featured: true
 - slug: coaching-shift-protocol
   axis_scores:
@@ -126,6 +166,6 @@ systems:
       which is the strongest evidence. That score comes from a persona gate inside the same workspace,
       the Day 1 vs Day 3 progression is described without numbers, and the three calendared real conversations
       report one documented outcome, so the chain is partial.
-  rationale: ICF-scored coaching sessions that carry into seven days of real conversations
   average: 6.67
-  featured: true
+  rationale: ICF-scored coaching sessions that carry into seven days of real conversations
+  featured: false

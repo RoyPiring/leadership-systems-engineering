@@ -14,3 +14,4 @@ Leadership frameworks from formal coursework, engineered as working systems.
 | 4 | [Set the Bet: Strategic Leadership](./systems/strategic-bet-drill/) | 2026-07-13 | 2026-07-13 | GitHub · Four-Persona |
 | 5 | [Make Your Goals Checkable](./systems/stranger-checkable-goals/) | 2026-09-15 | 2026-09-15 | Setting a Clear Purpose for Checkable Goals |
 | 6 | [Build a Daily Work Catalogue](./systems/daily-work-catalogue/) | 2026-09-17 | 2026-09-17 | Next · Pointer-Only |
+| 7 | [Start the Pineapple Advisory Notebook](./systems/governed-ai-risk-notebook/) | 2026-09-21 | 2026-09-21 | Claude Project · Exact-Output Fixture · Authored Entries |

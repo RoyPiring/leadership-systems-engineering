@@ -1,7 +1,7 @@
 lens: leadership-systems-engineering
 featured_enabled: auto
 threshold: 1
-scored_at: '2026-09-17'
+scored_at: '2026-09-21'
 human_pin: []
 systems:
 - slug: strategic-bet-drill
@@ -28,6 +28,40 @@ systems:
       but not yet run.'
   average: 8.0
   rationale: Refusal rules that force a funded kill decision with the human cost named
+  featured: true
+- slug: governed-ai-risk-notebook
+  axis_scores:
+    technical_depth: 7
+    voice: 8
+    validation: 8
+  axis_reasoning:
+    technical_depth: 'A governed Claude Project notebook rather than a page: a three-document packet
+      (Project Instructions, Entry Template, Entries log) with permanent rules held apart from entries,
+      matching PDFs in a local folder and in Project knowledge, four instruction categories checked line
+      by line against verbatim never lines and a consent rule, an exact-output fresh-chat fixture whose
+      pass condition was binary before the run, a prediction written before Claude could inspect the
+      fixture with a rule that a wrong one is logged as a hint used, a replacement PDF proven byte-identical
+      by normalized text comparison and the same binary upload, and 11-point and 27-point scripted
+      checklists over the packet. More machinery than its two siblings; held at 7 because the runtime is
+      still documents plus one model under instructions, and the risk the notebook exists for has not
+      been investigated yet.'
+    voice: 'Disciplined first person that bounds every claim: the usage percentages document context but
+      do not prove correctness, synchronization proves consistency while the judgment stays unproven, a
+      planned check is not a completed safeguard, and the three founding questions are left unanswered
+      on purpose. The last phase, refusing to add a fifth section after the final pass, is the most
+      distinctive line in the lens. Held at 8 because the byte-identical claim and the judgment-not-proven
+      caveat each recur across phases 4, 5 and the reflection, and the second-person headings (Confirming
+      your starting point, Adding your own dated entry) sit against the first-person prose.'
+    validation: 'Five screenshots across six phases and a countable result at nearly every step: a
+      four-line founding note in an otherwise empty workspace, three boundary lines returned character
+      for character under a pass rule fixed in advance, a text comparison returning True, an 11-point
+      checklist and then a 27-item checklist reported all passing, three PDFs local and three items in
+      the Project, a two-page preview with the authorship line on page one. The prediction-before-check
+      protocol and the no-hint record are the do-not-trust-the-confident-answer reflex made procedural.
+      Held at 8 because every check passed and no failing case was exercised; the fixture names what a
+      failure would look like but never produces one.'
+  average: 7.67
+  rationale: A Claude Project notebook whose fixture, prediction and stopping rule were fixed before any check
   featured: true
 - slug: stranger-checkable-goals
   axis_scores:
@@ -145,7 +179,7 @@ systems:
       scenario reports patterns without a score.
   average: 7.0
   rationale: Weakest-link decision scoring with a power overlay, proven across two scenarios
-  featured: true
+  featured: false
 - slug: coaching-shift-protocol
   axis_scores:
     technical_depth: 7

@@ -6,6 +6,7 @@ This portfolio repository was built from NextWork projects, created via NextWork
 
 - Coach Anyone From Stuck to Action
 - Build a Daily Work Catalogue
+- Start the Pineapple Advisory Notebook
 - Run a AAA Game Studio's Worst Sprint
 - Stanford Decision Quality Simulator
 - Make Your Goals Checkable

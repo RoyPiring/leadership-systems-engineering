@@ -108,6 +108,8 @@ flowchart TD
     Instructions -- "reviewed as" --> Consent
     Purpose -- "judged by" --> Matched
     Limits -- "judged by" --> Matched
+    Sourced -- "judged by" --> Matched
+    Consent -- "judged by" --> Matched
     Limits -- "tested through" --> FreshChat
     PassRule -- "fixed before" --> FreshChat
     Claude -- "answers" --> FreshChat

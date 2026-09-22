@@ -24,7 +24,7 @@ Leadership and high-performance frameworks from credentialed coursework, applied
 ## Featured Systems
 
 - **[Set the Bet: Strategic Leadership](./systems/strategic-bet-drill/)**: Refusal rules that force a funded kill decision with the human cost named
-- **[Start the Pineapple Advisory Notebook](./systems/governed-ai-risk-notebook/)**: A Claude Project notebook whose fixture, prediction and stopping rule were fixed before any check
+- **[Start the Pineapple Advisory Notebook](./systems/governed-ai-risk-notebook/)**: A Claude Project notebook whose fixture pass rule and proof prediction were fixed before the run
 - **[Make Your Goals Checkable](./systems/stranger-checkable-goals/)**: Goals a stranger can check, from a frozen 0 of 9 baseline to a keep-or-drop rule fixed early
 - **[Run a AAA Game Studio's Worst Sprint](./systems/pmbok8-program-recovery-simulator/)**: EMV risk register and SPI analysis behind an approved recovery verdict
 - **[Build a Daily Work Catalogue](./systems/daily-work-catalogue/)**: One rule per arrival channel, a pointer-only queue, and a safety exception that must be logged

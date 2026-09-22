@@ -61,7 +61,7 @@ systems:
       Held at 8 because every check passed and no failing case was exercised; the fixture names what a
       failure would look like but never produces one.'
   average: 7.67
-  rationale: A Claude Project notebook whose fixture, prediction and stopping rule were fixed before any check
+  rationale: A Claude Project notebook whose fixture pass rule and proof prediction were fixed before the run
   featured: true
 - slug: stranger-checkable-goals
   axis_scores:

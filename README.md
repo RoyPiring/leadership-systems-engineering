@@ -1,6 +1,6 @@
 # Leadership Systems Engineering
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-7-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--09--21-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1B4332?style=flat-square&labelColor=0d1117)](./LICENSE) [![Systems](https://img.shields.io/badge/systems-8-2F5233?style=flat-square&labelColor=0d1117)](./INDEX.md) [![Updated](https://img.shields.io/badge/updated-2026--09--30-264653?style=flat-square&labelColor=0d1117)](./INDEX.md)
 
 > *How does a leadership / high-performance framework apply when engineered as a system?*
 
@@ -27,8 +27,8 @@ Leadership and high-performance frameworks from credentialed coursework, applied
 - **[Start the Pineapple Advisory Notebook](./systems/governed-ai-risk-notebook/)**: A Claude Project notebook whose fixture pass rule and proof prediction were fixed before the run
 - **[Make Your Goals Checkable](./systems/stranger-checkable-goals/)**: Goals a stranger can check, from a frozen 0 of 9 baseline to a keep-or-drop rule fixed early
 - **[Run a AAA Game Studio's Worst Sprint](./systems/pmbok8-program-recovery-simulator/)**: EMV risk register and SPI analysis behind an approved recovery verdict
-- **[Build a Daily Work Catalogue](./systems/daily-work-catalogue/)**: One rule per arrival channel, a pointer-only queue, and a safety exception that must be logged
+- **[Route It While It Is Open](./systems/open-item-routing-protocol/)**: Four routes decided while the item is open, with the setup count barred from deciding it
 
-_+ 2 other systems in the full catalog: [`INDEX.md`](./INDEX.md)._
+_+ 3 other systems in the full catalog: [`INDEX.md`](./INDEX.md)._
 
 

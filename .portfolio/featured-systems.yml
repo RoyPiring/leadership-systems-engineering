@@ -1,7 +1,7 @@
 lens: leadership-systems-engineering
 featured_enabled: auto
 threshold: 1
-scored_at: '2026-09-21'
+scored_at: '2026-09-30'
 human_pin: []
 systems:
 - slug: strategic-bet-drill
@@ -117,6 +117,39 @@ systems:
   average: 7.67
   rationale: EMV risk register and SPI analysis behind an approved recovery verdict
   featured: true
+- slug: open-item-routing-protocol
+  axis_scores:
+    technical_depth: 7
+    voice: 8
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'One Notion page against Gmail, Google Calendar and a phone reminder, which is the
+      same runtime as its two siblings and scored the same. What it adds is a four-route classifier that
+      is exhaustive by construction, so nothing can be set down undecided, plus a completeness predicate
+      on the deferral: a GIVE IT A DAY entry is incomplete until the DAY field names a specific day, with
+      later and soon failing the rule and an unknown action day falling back to the next decision day
+      rather than to a vague one. The strongest piece of design is procedural rather than technical: two
+      deferral counts kept deliberately apart, only one of which is allowed to decide. Held at 7 because
+      the runtime is still a page and an inbox, with no code and nothing executable.'
+    voice: 'The highest first-person density in the lens, 46 uses of I across 1,678 words, and it spends
+      that voice on limits rather than results. The setup count is labelled setup evidence and told
+      plainly that it cannot decide the habit. The assistant proposes and never decides, and no agreement
+      rate exists because a second metric would compete with the one that matters. The first-week note is
+      kept qualitative on purpose, with no counts, rates, scores or minutes, and names what was given up:
+      quick inbox scans, and leaving messages open as reminders. Naming retail promotions, listing alerts
+      and trading newsletters as the items it most wanted to skim is the most honest line in the lens. One
+      below the top because the four-route rule and the named-day rule are each restated three times
+      across phases one, three and six.'
+    validation: 'What is proven is real and bounded: 20 waiting items routed in one uninterrupted pass,
+      selected as work that still needed judgment rather than as whatever was unread, every deferral
+      rechecked afterwards against the named-day rule with none left incomplete, a setup deferral count
+      recorded, and a cutoff of fewer than 10 fixed before any measurement. What is missing is the
+      outcome. The review is scheduled, not reached, so the KEEP or DROP verdict does not exist yet and
+      the doc says so. Scored 6, the same as daily-work-catalogue and for the same reason: a precommitted
+      test with no result is a complete setup rather than a finished validation.'
+  average: 7.0
+  rationale: Four routes decided while the item is open, with the setup count barred from deciding it
+  featured: true
 - slug: daily-work-catalogue
   axis_scores:
     technical_depth: 7
@@ -156,7 +189,7 @@ systems:
       red team.'
   average: 7.0
   rationale: One rule per arrival channel, a pointer-only queue, and a safety exception that must be logged
-  featured: true
+  featured: false
 - slug: stanford-decision-quality-simulator
   axis_scores:
     technical_depth: 7

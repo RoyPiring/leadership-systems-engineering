@@ -15,4 +15,4 @@ Leadership frameworks from formal coursework, engineered as working systems.
 | 5 | [Make Your Goals Checkable](./systems/stranger-checkable-goals/) | 2026-09-15 | 2026-09-15 | Setting a Clear Purpose for Checkable Goals |
 | 6 | [Build a Daily Work Catalogue](./systems/daily-work-catalogue/) | 2026-09-17 | 2026-09-17 | Next · Pointer-Only |
 | 7 | [Start the Pineapple Advisory Notebook](./systems/governed-ai-risk-notebook/) | 2026-09-21 | 2026-09-22 | Claude Project · Exact-Output Fixture · Authored Entries |
-| 8 | [Route It While It Is Open](./systems/open-item-routing-protocol/) | 2026-09-30 | 2026-09-30 | Notion · Gmail · Four-Route · Dated-Deferral |
+| 8 | [Route It While It Is Open](./systems/open-item-routing-protocol/) | 2026-10-01 | 2026-10-01 | Notion · Gmail · Four-Route · Dated-Deferral |

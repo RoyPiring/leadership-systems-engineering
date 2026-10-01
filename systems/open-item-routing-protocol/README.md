@@ -34,7 +34,7 @@ flowchart TD
     end
 
     subgraph Home["One permanent page"]
-        Page(A single enduring page holding the routes, the running log, the review rule and the evidence)
+        Page(One permanent Notion page holding the routes, the running log, the review rule and the evidence)
         Stable{{Kept on one continuing page so the process cannot change between sessions}}
         FromPage{{Routing runs against boundaries written in advance rather than judgment recalled from memory}}
     end
@@ -70,6 +70,13 @@ flowchart TD
         WhileOpen{{Each decision made while the item was open, rather than closing it and trusting memory to return}}
         Log[(The first complete routing log)]
         Swept[(Every GIVE IT A DAY entry rechecked afterwards; each named a real day, none left incomplete)]
+    end
+
+    subgraph Running["The habit after the batch"]
+        Ongoing(The same four routes applied to each newly read item while it is still open)
+        Immediate{{Every item gets an immediate outcome instead of returning to the inbox as unresolved work}}
+        NoRebuild{{The routing decision is what stops new obligations from rebuilding the backlog the system exists to control}}
+        Consistent{{Using the prewritten rules is what keeps the workflow the same after the initial batch}}
     end
 
     subgraph Counts["Two counts, deliberately kept apart"]
@@ -130,10 +137,16 @@ flowchart TD
     Recent -- "produced" --> Log
     Log -- "rechecked, giving" --> Swept
     Log -- "yielded" --> SetupCount
+    Recent -- "was practice for" --> Ongoing
+    MustFit -- "continues to govern" --> Ongoing
+    Ongoing -- "gives each item" --> Immediate
+    Immediate -- "is what delivers" --> NoRebuild
+    Ongoing -- "held steady by" --> Consistent
+    Ongoing -- "appended to" --> Log
     SetupCount -- "bounded by" --> NotNormal
     SetupCount -- "held apart from" --> Cutoff
     Cutoff -- "is why" --> Protected
-    Calendar -- "carries the reminder for" --> Cutoff
+    Calendar -- "is where the reminder for it would sit" --> Cutoff
     Cutoff -- "read by" --> ReviewSelf
     Assistant -- "suggests a route into" --> Diverged
     Operator -- "overrides, recording" --> Diverged
@@ -150,8 +163,8 @@ flowchart TD
     WhileOpen -- "bounded by" --> Manual
 
     class Four,Now,Day,Hand,Throw,Named,Unknown,Paper,Phone,Log,Swept,SetupCount,Cutoff,Diverged,Example,Note,Irritation,GaveUp,Tempting datastore
-    class Page,Gmail,Calendar,Unread,Recent service
-    class Problem,Close,Stable,FromPage,Fixed,MustFit,Vague,StillValid,OneSession,Judgment,WhileOpen,NotNormal,Protected,NoRate,NotGrading,Qualitative,Pending,Manual event
+    class Page,Gmail,Calendar,Unread,Recent,Ongoing service
+    class Problem,Close,Stable,FromPage,Fixed,MustFit,Vague,StillValid,OneSession,Judgment,WhileOpen,NotNormal,Protected,NoRate,NotGrading,Qualitative,Pending,Manual,Immediate,NoRebuild,Consistent event
     class Operator,Assistant,ReviewSelf io
 ```
 

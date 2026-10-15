@@ -1,9 +1,40 @@
 lens: leadership-systems-engineering
 featured_enabled: auto
 threshold: 1
-scored_at: '2026-10-01'
+scored_at: '2026-10-15'
 human_pin: []
 systems:
+- slug: household-privacy-audit
+  axis_scores:
+    technical_depth: 7
+    voice: 9
+    validation: 8
+  axis_reasoning:
+    technical_depth: 'The deepest of the seven practice systems, because it builds something rather than
+      only deciding something. A two-record model separates a complete local audit record, holding settings,
+      sources, observation clocks, fixture proof, export status and chat counts beside the consent log, from
+      a redacted copy that is the only version eligible to leave the laptop. Consent is structured as a
+      five-row table keyed on role rather than name, which lowers the identifying detail the audit itself
+      has to store. The findings sit in a four-column table tying each setting to its state, its evidence
+      and the decision it produced, with observed settings held apart from actions that are pending or
+      deliberately not taken.'
+    voice: 'It declines the claim the title invites. The record states that a control reduces one defined
+      risk rather than making the account private, that plan type and default behavior are not evidence of
+      any level of household privacy, and that the conclusion is limited to what a line-by-line review
+      showed about one copy. The export is recorded as pending and its contents are explicitly not
+      described before it arrives. The absent household member is marked as having consented to nothing,
+      with absence stated as not counting as approval, which is the harder reading and the right one.'
+    validation: 'The fixture is a real executed experiment, not a description of one. An invented pet and
+      an invented town carry no household information, so the boundary can be tested without risking a
+      family detail. Deleting the chat removed it from past-chat search at 11:06 PM while the separate
+      Memory topic still returned the invented town; deleting that topic changed the answer to I do not
+      know at 11:11 PM. Two timestamped observations isolate chat deletion from Memory deletion and prove a
+      behavior most users would assume works the other way. All 99 lines of the shareable copy were then
+      read for household information before it was allowed out, and the required proof categories were
+      confirmed still present after redaction.'
+  average: 8.0
+  rationale: Deleting the chat left the Memory topic answering; only deleting both reached I do not know
+  featured: true
 - slug: strategic-bet-drill
   axis_scores:
     technical_depth: 8
@@ -117,6 +148,57 @@ systems:
   average: 7.67
   rationale: EMV risk register and SPI analysis behind an approved recovery verdict
   featured: true
+- slug: three-scheduled-email-checks
+  axis_scores:
+    technical_depth: 5
+    voice: 9
+    validation: 8
+  axis_reasoning:
+    technical_depth: 'A measurement protocol rather than a build: one page, three calendar events and a
+      tally. What carries it is the boundary design. Urgent channels are enumerated and left on for all 66
+      days, exactly one notification path is declared eligible, and SERIOUS is defined up front as missing
+      an urgent work request, so a lower email count can never be bought with a missed message. Held at 5
+      because nothing is constructed and the tooling is three consumer applications.'
+    voice: 'The register counts against itself wherever it could have counted for itself. Two unscheduled
+      checks in week 2 are recorded rather than excused as exceptions, which raises the treatment number
+      and is the only way the comparison stays honest. The cost is kept in words so no second score can
+      compete with the single measure. The coordinated switch is named as a limit on the claim: because
+      every element started on one day, the result describes the routine and cannot say which part caused
+      the change.'
+    validation: 'The only one of the seven with a measured result, and it earns it. The baseline was marked
+      live at the moment of each check rather than reconstructed afterwards from history or memory. The
+      break list was completed before either week was counted, so the size of the reduction could not
+      colour how the costs were remembered, and it resolved two prewritten predictions with one occurring
+      and one not. The day 66 verdict applied the branch written on day 1 to reach KEEP with no new metric,
+      no recalculated formula and no cutoff invented on the day.'
+  average: 7.33
+  rationale: A DROP of 37 against a branch written on day one, with both unscheduled checks counted in
+  featured: false
+- slug: block-agreement-before-booking
+  axis_scores:
+    technical_depth: 6
+    voice: 9
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'A page and a calendar, but the control design is the richest of the six planning
+      systems. Exceptions run at two levels: one standing rule that anything genuinely urgent is always
+      taken, listed or not, and two named per-person conditions written identically in two places so a
+      later proposal cannot widen or narrow either. The proposal carries an explicit status, the response
+      branches are specified before any answer arrives, and partial agreement has its own defined handling
+      rather than being resolved in the moment.'
+    voice: 'It refuses the thing that would have been easiest: putting the Block on the calendar. The page
+      states that a recurring event visible on one calendar would imply a reduction in access nobody
+      consented to, and the calendar was checked and confirmed empty so both tools tell the same story. A
+      second No stops the tally entirely rather than earning another ask. The sharpest line separates a
+      good human decision from a successful focus session, so a real emergency is taken and the Block is
+      still marked BROKEN rather than excused into looking intact.'
+    validation: 'The edge cases were classified before the tally existed, which is what stops an awkward
+      case being reclassified later to protect the count, and the calendar-empty check was actually
+      performed rather than asserted. Held at 6 because no Block has run: there is no tally, no intact
+      count and no verdict, so what exists is a well-specified method and not yet evidence.'
+  average: 7.0
+  rationale: Refuses to book the calendar until the people losing access say yes, with a second No ending it
+  featured: false
 - slug: open-item-routing-protocol
   axis_scores:
     technical_depth: 7
@@ -149,7 +231,7 @@ systems:
       test with no result is a complete setup rather than a finished validation.'
   average: 7.0
   rationale: Four routes decided while the item is open, with the setup count barred from deciding it
-  featured: true
+  featured: false
 - slug: daily-work-catalogue
   axis_scores:
     technical_depth: 7
@@ -213,6 +295,88 @@ systems:
   average: 7.0
   rationale: Weakest-link decision scoring with a power overlay, proven across two scenarios
   featured: false
+- slug: evidence-backed-estimates
+  axis_scores:
+    technical_depth: 6
+    voice: 8
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'A controlled comparison with its denominators specified in advance. Ten jobs are held
+      in first-thought order so the odd and even split cannot be steered toward whichever tasks are easier
+      to support, dates are added to both halves before any evidence trail is attached, and the two
+      estimate formats differ in exactly one respect: three lines carrying a past-work trail against one
+      line carrying a number. The counting rules handle the awkward cases explicitly, including that
+      finishing exactly on the estimate counts as inside and that a job which never started is excluded
+      because it produced no timing evidence.'
+    voice: 'It reports the baseline being wrong as a finding rather than hiding it, noting that the page
+      exposed patch nights and migration reviews running longer than memory had claimed, and calls that
+      uncomfortable. The aim is stated narrowly as testing whether looking backward plans better than
+      memory, not as estimating every job correctly. The typical-time check keeps the human in front of
+      the model: the operator sorted the three actuals personally and the returned value had to match the
+      middle before it could be trusted.'
+    validation: 'The typical-time method was genuinely exercised on three supplied values and confirmed to
+      return the middle rather than an average, which is the one piece of the system that has actually
+      run. The patience rule is the strongest control: no partial gap may be computed, and the comparison
+      waits until both groups hold 20 countable jobs so an early imbalance cannot decide it. Held at 6
+      because the gap itself does not exist yet and neither method has been shown better.'
+  average: 6.67
+  rationale: Odd jobs carry a past-work trail, even jobs carry a number, and no partial gap may be read
+  featured: false
+- slug: standing-meeting-consent-check
+  axis_scores:
+    technical_depth: 5
+    voice: 9
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'The lightest build of the seven: a private page, one calendar review and two clock
+      readings per meeting. The design work sits in the sequencing and the consent mechanics rather than
+      in any tooling. Four baseline meetings, then the note, then four standing meetings, with the order
+      fixed before any timing so the phases cannot be swapped or the standing half moved once early
+      numbers appear. One result number is defined in advance and its arithmetic tested on an example
+      before a real row existed.'
+    voice: 'Consent is handled better here than anywhere else in the lens. Permission to sit is written
+      before standing is mentioned, in three separate places, and a refusal is stored as a single line
+      with no name, no reason and no circumstances, so declining never has to be defended. Stopping the
+      experiment after a refusal is framed as the safety rule working rather than the attempt failing. The
+      page keeps two sentences that bound the whole build: it records how the meeting changed, and it
+      cannot tell why it changed. The cited research is held apart as covering a different kind of meeting
+      and settling nothing about this one.'
+    validation: 'The page was audited against itself rather than assumed correct: the sitting-first wording
+      confirmed in all three locations, every required line counted and confirmed under its length limit,
+      the phase order verified, the example arithmetic repeated, and every sentence about results checked
+      to confirm none predicts an outcome or asserts a cause. Held at 6 because no meeting has been timed,
+      the note is unsent and the real rows are deliberately empty.'
+  average: 6.67
+  rationale: Sitting-first in three places, a refusal stored as one line, and no claim about why it changed
+  featured: false
+- slug: trigger-gap-comparison
+  axis_scores:
+    technical_depth: 6
+    voice: 8
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'A clean single-variable comparison. Target dates go on all ten actions before any
+      trigger is written, so the test is dates against dates plus a noticeable cue rather than scheduled
+      work against unscheduled work, which is the confound most versions of this experiment fall into. The
+      intention filter runs first and its four rejects are struck through rather than quietly removed, so
+      the selection rule and the reason the list changed stay on the page. The collision check is the
+      original piece: cues are judged by when they fire rather than how they read, which caught two
+      pointing at the same moment after dinner.'
+    voice: 'It states plainly that a personal comparison of five against five proves little beyond its own
+      setting and cannot establish that triggers work for every task, person or workflow. Assistant
+      proposals are refused on substance rather than style, one for naming no dependable event and one for
+      assuming an object would be where it usually sits, with the operator keeping original wording
+      wherever its cue was more reliable. The open question is named rather than closed: whether the cues
+      stay attached to stable moments as the routine changes.'
+    validation: 'The page was read top to bottom against a prediction of ten dated actions and no if-then
+      text, and the gap definition, example block, value and cutoff sentence were each confirmed present
+      and in order before treatment began. The collision check actually changed the design, which is the
+      mark of a test that was run rather than described. Held at 6 because the day 7 reading is explicitly
+      an observation that decides nothing, and the day 66 fresh gap, the only one judged against the
+      cutoff, does not exist yet.'
+  average: 6.67
+  rationale: Dates on both halves first, then cues judged by when they fire, which caught two colliding
+  featured: false
 - slug: coaching-shift-protocol
   axis_scores:
     technical_depth: 7
@@ -235,4 +399,30 @@ systems:
       report one documented outcome, so the chain is partial.
   average: 6.67
   rationale: ICF-scored coaching sessions that carry into seven days of real conversations
+  featured: false
+- slug: weekly-protected-hour
+  axis_scores:
+    technical_depth: 5
+    voice: 8
+    validation: 6
+  axis_reasoning:
+    technical_depth: 'One recurring calendar hour, one page and one prewritten response. The design is
+      small by intent: a broad delayed item is cut down to a single visible piece that one sitting can
+      finish, so the reminder never arrives with an open question about scope attached. The supporting
+      parts each aim at one failure mode, with a boundary sentence prepared before anyone competes for the
+      time, a movement rule that keeps a displaced session inside the same week rather than letting it
+      disappear, and a cost line left blank until after the fourth session.'
+    voice: 'The baseline rule is the honest one rather than the flattering one: calendar silence counts as
+      No, and the page states that an undocumented session may well have happened but the chosen evidence
+      source cannot show it, so counting a silent week as Yes would shrink the neglect without support.
+      The cost line is deliberately left empty to prevent an early judgment about what protecting the hour
+      actually takes. The future of the appointment is reported as undecided rather than assumed to
+      continue.'
+    validation: 'The four-week baseline was gathered from one declared evidence source and recorded before
+      the recurring event existed, which keeps earlier neglect separate from later sessions, and the
+      shared-account check was performed rather than assumed so a working reminder could not be mistaken
+      for a missing one. Held at 6 because the baseline is the only evidence that exists: no session has
+      run, no week has been counted, and the frozen 3-of-4 cutoff has nothing yet to read.'
+  average: 6.33
+  rationale: Calendar silence counts as No, so the baseline is the harsher reading rather than the kind one
   featured: false

@@ -4,14 +4,21 @@ This portfolio repository was built from NextWork projects, created via NextWork
 
 **Original NextWork projects:**
 
+- Agree a Block Before You Book It
 - Coach Anyone From Stuck to Action
 - Build a Daily Work Catalogue
+- Look Back Before You Put a Time on a Job
 - Start the Pineapple Advisory Notebook
+- Audit Claude Household Privacy
 - Route It While It Is Open
 - Run a AAA Game Studio's Worst Sprint
+- Stand for One Short Update Meeting
 - Stanford Decision Quality Simulator
 - Make Your Goals Checkable
 - Set the Bet: Strategic Leadership
+- Three Times, Not In Between
+- Build a Trigger Gap Page
+- Schedule Time for Important Work
 
 ## About NextWork
 

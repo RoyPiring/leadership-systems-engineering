@@ -16,3 +16,10 @@ Leadership frameworks from formal coursework, engineered as working systems.
 | 6 | [Build a Daily Work Catalogue](./systems/daily-work-catalogue/) | 2026-09-17 | 2026-09-17 | Next · Pointer-Only |
 | 7 | [Start the Pineapple Advisory Notebook](./systems/governed-ai-risk-notebook/) | 2026-09-21 | 2026-09-22 | Claude Project · Exact-Output Fixture · Authored Entries |
 | 8 | [Route It While It Is Open](./systems/open-item-routing-protocol/) | 2026-10-01 | 2026-10-01 | Notion · Gmail · Four-Route · Dated-Deferral |
+| 9 | [Agree a Block Before You Book It](./systems/block-agreement-before-booking/) | 2026-10-15 | 2026-10-15 | Notion · Agreement-Before-Booking · Named Exceptions · 6-of-8 Cutoff |
+| 10 | [Look Back Before You Put a Time on a Job](./systems/evidence-backed-estimates/) | 2026-10-15 | 2026-10-15 | Notion · Past-Work Trails · Odd-Even Split · 20-Job Gate |
+| 11 | [Audit Claude Household Privacy](./systems/household-privacy-audit/) | 2026-10-15 | 2026-10-15 | Claude Settings · Local-First · Role-Based Consent · Memory Fixture |
+| 12 | [Stand for One Short Update Meeting](./systems/standing-meeting-consent-check/) | 2026-10-15 | 2026-10-15 | Notion · Consent-First · Four-and-Four · Single DROP |
+| 13 | [Three Times, Not In Between](./systems/three-scheduled-email-checks/) | 2026-10-15 | 2026-10-15 | Gmail · Three Fixed Times · Protected Channels · DROP 37 · KEEP |
+| 14 | [Build a Trigger Gap Page](./systems/trigger-gap-comparison/) | 2026-10-15 | 2026-10-15 | Notion · If-Then Triggers · Collision Check · Cutoff 2 |
+| 15 | [Schedule Time for Important Work](./systems/weekly-protected-hour/) | 2026-10-15 | 2026-10-15 | Notion · Google Calendar · Four-Week Baseline · Frozen 3-of-4 Cutoff |

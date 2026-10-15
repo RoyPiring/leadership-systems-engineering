@@ -82,7 +82,7 @@ flowchart TD
     end
 
     Absent -- "is the reason for" --> LocalFirst
-    LocalFirst -- "realised as" --> Folder
+    LocalFirst -- "put into practice as" --> Folder
     LocalFirst -- "paired with" --> Human
     LocalFirst -- "expressed as" --> Default
     Folder -- "holds" --> Log

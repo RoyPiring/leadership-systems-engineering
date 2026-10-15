@@ -74,7 +74,7 @@ flowchart TD
     end
 
     subgraph Review["A review date fixed before any result existed"]
-        Date[("First session 11 October, one-time review 16 December, 66 days later")]
+        Date[("First session October 11, one-time review December 16, 66 days later")]
         OwnCue[(The review carries its own pop-up and email, separate from the weekly reminders)]
         NotInformal{{Keeping it separate stops a routine weekly reminder from turning into an informal judgment point}}
         NoDrift{{Scheduling it first removes the chance of delaying it or picking a kinder date once results are visible}}

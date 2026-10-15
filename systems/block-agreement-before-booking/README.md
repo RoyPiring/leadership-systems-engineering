@@ -99,7 +99,7 @@ flowchart TD
 
     Colleagues -- "are the reason for" --> Before
     Before -- "exists because of" --> Imposed
-    Before -- "realised as" --> Notion
+    Before -- "put into practice as" --> Notion
     Notion -- "opens with" --> Urgent
     Urgent -- "placed to give" --> First
     First -- "delivers" --> NotDemand

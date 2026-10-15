@@ -35,7 +35,7 @@ flowchart TD
 
     subgraph Prewritten["Written before the first tally"]
         Page(One page holding the boundary, the check definition, both week tallies, the break list, the cost area and the verdict branches)
-        Times[(Three check times fixed at 8:30, 12:30 and 16:30, starting on day 8)]
+        Times[(Three check times fixed at 8:30 AM, 12:30 PM and 4:30 PM, starting on day 8)]
         Branches[(The KEEP and DROP branches copied down exactly as they would later be applied)]
         Predictions[(Two predictions recorded: a vendor delay, and a teammate asking why the operator was slow)]
         NoNegotiate{{Writing the concern, the cutoff and the verdict language first stops a preferred result from authoring its own rule}}
@@ -69,7 +69,7 @@ flowchart TD
         Then(Only then were the two weeks counted, once)
         Drop[(One result number recorded: a DROP of 37)]
         Words{{The cost is described in words rather than scored, so no second number can compete with the single measure}}
-        WhyOrder{{Reading the costs first stops the size of the reduction from colouring how the costs are remembered}}
+        WhyOrder{{Reading the costs first stops the size of the reduction from shading how the costs are remembered}}
     end
 
     subgraph Verdict["Day 66, applied rather than argued"]

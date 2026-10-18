@@ -23,3 +23,6 @@ Leadership frameworks from formal coursework, engineered as working systems.
 | 13 | [Three Times, Not In Between](./systems/three-scheduled-email-checks/) | 2026-10-15 | 2026-10-15 | Gmail · Three Fixed Times · Protected Channels · DROP 37 · KEEP |
 | 14 | [Build a Trigger Gap Page](./systems/trigger-gap-comparison/) | 2026-10-15 | 2026-10-15 | Notion · If-Then Triggers · Collision Check · Cutoff 2 |
 | 15 | [Schedule Time for Important Work](./systems/weekly-protected-hour/) | 2026-10-15 | 2026-10-15 | Notion · Google Calendar · Four-Week Baseline · Frozen 3-of-4 Cutoff |
+| 16 | [Judge My Planning Habits](./systems/planning-habit-verdicts/) | 2026-10-18 | 2026-10-18 | Notion · Rules Before Records · Four Verdicts · Kept Count 0 |
+| 17 | [Count Slips and Write What Went Well](./systems/slip-count-look-back/) | 2026-10-18 | 2026-10-18 | Notepad · Slipped Count 5 of 9 · Repeat-Slip Rule · Dec 8 Keep or Stop |
+| 18 | [Tell One Person: Six Dated Actions](./systems/told-versus-private-trial/) | 2026-10-18 | 2026-10-18 | Notion · Date-Order Groups · TOLD 2 PRIVATE 1 · Listener Gate |

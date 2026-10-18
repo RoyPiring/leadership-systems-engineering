@@ -1,7 +1,7 @@
 lens: leadership-systems-engineering
 featured_enabled: auto
 threshold: 1
-scored_at: '2026-10-15'
+scored_at: '2026-10-18'
 human_pin: []
 systems:
 - slug: household-privacy-audit
@@ -59,6 +59,70 @@ systems:
       but not yet run.'
   average: 8.0
   rationale: Refusal rules that force a funded kill decision with the human cost named
+  featured: true
+- slug: planning-habit-verdicts
+  axis_scores:
+    technical_depth: 7
+    voice: 9
+    validation: 7
+  axis_reasoning:
+    technical_depth: 'A verdict system rather than a tracker. Each of four habits carries a For: line naming
+      its purpose and a DROP if: line holding one Number and one defined window, the verdicts run in a set
+      order (DROP, HOLD, KEEP), and a rule covers absent evidence so a habit with no completed count cannot
+      pass by default. The Kept count is reported against a denominator that still includes the already
+      stopped habit, because it appeared in the inventory and needed a verdict. The decision sentence, the
+      review date and the Next record: line that names where the future Number lives and how much history to
+      count were all written before any record was opened. Notion holds the decisions while Calendar and
+      Gmail stay evidence sources, which keeps one page authoritative. Peer with daily-work-catalogue and
+      open-item-routing-protocol: real rule design on a note page rather than software.'
+    voice: 'Reports Kept count: 0, of 4 listed and calls the result humbling without softening it or
+      reframing the single HOLD as a partial win. States plainly that HOLD is not KEEP and that email routing
+      therefore does not raise the count. Explains why the frequency test was struck out, that using a habit
+      seven times measures use and not purpose, which is a correction against its own earlier draft. Names
+      the hardest part as separating what a habit is for from how often it is performed, reports the time
+      overrun at 1 hour 10 minutes against an estimate of 55, and closes by saying a small personal record
+      can guide the next action and cannot show that a habit caused a broader change.'
+    validation: 'Each number came from one named source inside one defined window, and the rules were written
+      with Gmail, Calendar and the older pages closed, which is the control that makes the thresholds worth
+      reading. The absent-evidence rule was exercised rather than asserted: the list rebuild page held no
+      completed count, so its Number line was omitted and the habit fell to DROP instead of being credited
+      with a zero. The surviving habit has a named record, a matching window and a dated rematch. Held at 7
+      because three of four verdicts are DROP and the fourth is HOLD, so no habit was shown to work; the
+      Sunday look-back count used Calendar events as a proxy for completed reviews; and the December review
+      that decides the one survivor has not happened.'
+  average: 7.67
+  rationale: Kept count 0 of 4, with a missing number left missing and HOLD explicitly not counted as KEEP
+  featured: true
+- slug: told-versus-private-trial
+  axis_scores:
+    technical_depth: 7
+    voice: 8
+    validation: 8
+  axis_reasoning:
+    technical_depth: 'The assignment mechanism is the design. Six dated plans are sorted by date and their
+      positions, not the author preference, place 1, 3 and 5 in TOLD and 2, 4 and 6 in PRIVATE, so the more
+      appealing actions cannot be loaded into the group expected to do better. The result passes two gates:
+      the listener had to have checked in on every TOLD date before the difference was allowed to decide
+      anything, and the difference is the single outcome number, with the two group counts kept above it as
+      working values so neither can be quoted alone. A privacy boundary runs through it, since the identity
+      lines stay on the private page and the listener receives only the action and the date. Notion holds the
+      record, Calendar carries seven events, and Gmail was tested as a backup telling path and then cleared.'
+    voice: 'Names its own limits without being asked: a preference rather than proof, six plans of one
+      person, date order balancing no difficulty, and a single listener. Explains why the group counts are
+      inputs rather than results, which is an unusual thing to defend in writing. Reports the library book as
+      Not done on time although it was finished one day later, because the rule measured the original date.
+      Marked down to 8 against the lens voice leaders because the account is more procedural and repeats its
+      own framing, and the field-by-field narration carries less edge than the records that refuse a
+      flattering summary outright.'
+    validation: 'A completed trial with a reached decision, which most practices in this lens do not have.
+      Every plan was marked on its own date when the reminder appeared and no date was moved afterwards, all
+      three listener check-ins are recorded individually with their dates, the arithmetic is left inspectable
+      beneath the counts, and the prewritten branch was followed without altering a date, mark, count or
+      threshold. Held at 8 because the sample is six plans with unbalanced difficulty, the TOLD condition
+      depends on one listener, and the PRIVATE group carries no check-in field at all by construction, so
+      one of the two arms has no equivalent observation.'
+  average: 7.67
+  rationale: Date order picks the groups, and the difference counts only once every listener check-in is Yes
   featured: true
 - slug: governed-ai-risk-notebook
   axis_scores:
@@ -122,7 +186,7 @@ systems:
       outcome does not exist yet.'
   average: 7.67
   rationale: Goals a stranger can check, from a frozen 0 of 9 baseline to a keep-or-drop rule fixed early
-  featured: true
+  featured: false
 - slug: pmbok8-program-recovery-simulator
   axis_scores:
     technical_depth: 9
@@ -147,7 +211,38 @@ systems:
       10 because the EMV result itself is not shown.'
   average: 7.67
   rationale: EMV risk register and SPI analysis behind an approved recovery verdict
-  featured: true
+  featured: false
+- slug: slip-count-look-back
+  axis_scores:
+    technical_depth: 6
+    voice: 9
+    validation: 7
+  axis_reasoning:
+    technical_depth: 'One plain-text file and five calendar cues, so the substrate is thin, but two counting
+      rules are built into it rather than left to judgment. The weekly line is written as Slipped count: __,
+      of __ dated items, so the numerator can never be read without the workload it sat in, and the
+      repeat-slip rule counts missed dates rather than unique tasks, which is what makes repeatedly
+      rescheduled work visible instead of collapsing into one overdue item. Four review cadences share one
+      home, and reminders are kept in Calendar while results stay in the file, deliberately, so two
+      competing versions of the practice cannot appear. Peer with trigger-gap-comparison at the same score:
+      genuine rule design on a note page.'
+    voice: 'The limitation is stated before the number is used. The count is called an honest reconstruction
+      rather than a complete audit, because it was taken from memory only, and the record says so instead of
+      presenting 5 slips as a forensic total. The week-felt line is deliberately kept in words so context
+      arrives without becoming a second score, the opening sentence states that plans allowed to slide belong
+      in the record including the uncomfortable ones, and the evening entry is explicitly barred from
+      cancelling the weekly count. The cost is reported honestly at about an hour against a listed 45
+      minutes, and the closing note says repeated records may reveal patterns and cannot establish causes.'
+    validation: 'A real first count exists rather than an empty structure: 9 dated items, 5 slip occurrences,
+      and one next decision recorded for every slip as a new date, a drop or a handover, so no slipped item
+      sits in the record without a disposition. The repeat-slip rule actually fired, on the photo backup
+      whose replacement date of October 6 also passed, so the rule is demonstrated and not only written. The
+      monthly and three-month areas are marked not yet rather than filled early. Held at 7 because the
+      keep-or-stop verdict has not been reached, the count is memory-only by design, and only one week and
+      one evening entry exist, so nothing here shows the rules holding over time.'
+  average: 7.33
+  rationale: A slip count that always carries its denominator, and repeat slips counted as missed dates
+  featured: false
 - slug: three-scheduled-email-checks
   axis_scores:
     technical_depth: 5
